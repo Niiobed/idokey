@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>iDokey Event and Deco services</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <style type="text/css">
+	body {
+   margin: 0;
+   padding: 0;
+   background: #EEE;
+   font: 10px/13px 'Lucida Sans',sans-serif;
+}
+.wrap {
+   overflow: hidden;
+   margin: 10px;
+}
+.box {
+   float: left;
+   position: relative;
+   width: 20%;
+   padding-bottom: 20%;
+}
+.boxInner {
+   position: absolute;
+   left: 10px;
+   right: 10px;
+   top: 10px;
+   bottom: 10px;
+   overflow: hidden;
+}
+.boxInner img {
+   width: 100%;
+}
+.boxInner .titleBox {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin-bottom: -50px;
+   background: #000;
+   background: rgba(0, 0, 0, 0.5);
+   color: #FFF;
+   padding: 10px;
+   text-align: center;
+   -webkit-transition: all 0.3s ease-out;
+   -moz-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+   transition: all 0.3s ease-out;
+}
+body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+   margin-bottom: 0;
+}
+@media only screen and (max-width : 480px) {
+   /* Smartphone view: 1 tile */
+   .box {
+      width: 100%;
+      padding-bottom: 100%;
+   }
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+   .box {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   .box {
+      width: 33.3%;
+      padding-bottom: 33.3%;
+   }
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   .box {
+      width: 25%;
+      padding-bottom: 25%;
+   }
+
+}
+  </style> 
+  <!-- Enable media queries for old IE -->
+<!--[if lt IE 9]>
+   <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+   <!-- site icons -->
+   <link rel="icon" href="img/fevicon.png" type="image/png" />
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css" />
+   <!-- site css -->
+   <link rel="stylesheet" href="css/style.css" />
+   <!-- responsive css -->
+   <link rel="stylesheet" href="css/responsive.css" />
+   <!-- colors css -->
+   <link rel="stylesheet" href="css/colors.css" />
+   <!-- custom css -->
+   <link rel="stylesheet" href="css/custom.css" />
+   <!-- wow animation css -->
+   <link rel="stylesheet" href="css/animate.css" />
+   <!-- Revolution Loaling Fonts and Icons  -->
+   <link rel="stylesheet" href="js/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+   <!-- Revolution style Sheets  -->
+   <link rel="stylesheet" href="js/revolution/css/settings.css">
+   <link rel="stylesheet" href="js/revolution/css/layers.css">
+   <link rel="stylesheet" href="js/revolution/css/navigation.css">
+   <!-- owl stylesheets -->
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/owl.theme.default.css">
+   <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+<body id="default_theme" class="about">
+   <!-- header -->
+   <div id="mySidenav" class="sidenav">
+      <ul class="menu_sidebar">
+         <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+         <li><a href="index.html">01. Home</a></li>
+         <li><a href="about.html">02. About</i></a></li>
+         <li><a href="Gallery.html">03. Gallery</a></li>
+         <li><a href="contact.html">04. Contact Us</a></li>
+      </ul>
+   </div>
+   <header class="header">
+      <div class="header_top">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="full">
+                     <span class="toggle_icon" style="cursor:pointer" onclick="openNav()"><img src="img/menu_icon.png" alt="#" /></span>
+                     <div class="logo_circle">
+                        <a href="index.html"><img class="img-responsive" src="img/logo.png" alt="#" /></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-8">
+                  <div class="float-right">
+                     <ul class="top_links">
+                        <li><a href="contact.html"><img src="images/profile_icon.png" alt="#" /></a></li>
+                        <li class="searchbar">
+                           <input class="search_input" type="text" name="" placeholder="Search...">
+                           <a href="Gallery.html" class="search_icon"><img src="images/search_icon.png" alt="#" /></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- end header -->
+   <!-- Start Banner Slider -->
+   <div id="inner_pade" class="banner-slider">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12">
+               <div class="full">
+                  <h2>About us</h2>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- End Banner Slider -->
+   <!-- section -->
+   <section class="layout_padding about_section">
+      <div class="container">
+         <div class="row">
+               <div class="col-md-7">
+                  <div class="full decorate_blog">
+                  <img src="images/wd_2.jpg"  alt="#"/>
+               </div>
+            </div>
+            <div class="col-md-5">
+               <div class="full heading_s1">
+                  <h3>IDOKEY EVENTS</h3>
+                  <p style="font-family: Georgia;">IDokey events is an event planning company which specialises in planning, decoration, we do Rental services and give Cultural perfomances for all events be it weddings, parties, Anniversary celebration etc. You can reach us by calling us on 0561979028 and on all our social media handles on Facebook, Instagram and Youtube...</p>
+				  <div class="col-md-10 offset-md-1">
+                     <ul class="social_icon text_align_center">
+						<li><a href="https://www.facebook.com/iDokeyEvents?mibextid=ZbWKwL"><img src="img/facebook.jpg"
+								width="30"
+								height="30" alt="#" /></a></li>
+						<li><a href="https://youtube.com/@idokeyevents1384"><img src="img/youtube.jpg"
+								width="30"
+								height="30" alt="#" /></a></li>
+						<li><a href="https://instagram.com/idokeyevents?igshid=YmMyMTA2M2Y="><img src="img/instagram.jpg"
+								width="30"
+								height="30" alt="#" /></a></li>
+                     </ul>
+					  <div class="full">
+                              <a class="read_more_bt" href="gallery.html">view gallery</a>
+                     </div>
+                </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end section -->
+   <!-- section -->
+   <section class="layout_padding about_section">
+      <div class="container">
+         <div class="row">
+               <div class="col-md-7">
+                  <div class="full decorate_blog">
+                  <img src="img\sirr therapy.jpg" alt="#"/>
+               </div>
+            </div>
+            <div class="col-md-5">
+               <div class="full heading_s1">
+                  <h3>SIRR THERAPY ART WORKS</h3>
+                  <p style="font-family: Georgia;">I am Jonathan Nii Adarmah Sackey popularly known as sirr_therapy. I’m based in Ghana (Accra). I’m a visual artist who uses basic raw materials to create artifacts such as pen/pencil/painting artwork, beads artwork, veneer artwork and pyrography artwork. I’m mostly on the blue pen hyper realistic art piece. Moreover, I try to create things around me.
+        "I love to draw faces. Each face, to me, tells an intriguing story regardless of the background." 
+        Do you want a beautiful artwork for your love one’s, yourself, your boss.?
+I am here to make it a reality for you, make it a memorable day for that person. 
+     Celebrate others today and you will be celebrated tomorrow. All my works are for sale....</p>
+				  <div class="col-md-10 offset-md-1">
+                     <ul class="social_icon text_align_center">
+						<li><a href="https://www.facebook.com/sirrtherapy"><img src="img/facebook.jpg"
+								width="30"
+								height="30" alt="#" /></a></li>
+						<li><a href="https://youtube.com/channel/UCnofgCVYTehILu7yoRm-uhw"><img src="img/youtube.jpg"
+								width="30"
+								height="30" alt="#" /></a></li>
+						<li><a href="https://instagram.com/sirr_therapy?igshid=YmMyMTA2M2Y="><img src="img/instagram.jpg"
+								width="30"
+								height="30" alt="#" /></a></li>
+                     </ul>
+					 <div class="full">
+                              <a class="read_more_bt" href="Sirr therapy gallery.html">view gallery</a>
+                     </div>
+                </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end section -->
+   <!-- section -->
+   <section class="layout_padding about_section">
+      <div class="container">
+         <div class="row">
+               <div class="col-md-7">
+                  <div class="full decorate_blog">
+                  <img src="img\king denash.jpg" alt="#"/>
+               </div>
+            </div>
+            <div class="col-md-5">
+               <div class="full heading_s1">
+                  <h3>KING DENASH</h3>
+                  <p style="font-family: Georgia;">I'm Joshua Nii Lartey Sackey with the stage name King Denash. I am a gospel dance Choreographer, a video editor and content creator. I believe that all people need encouragement, and my mission is to reach those that are spiritually in need, and introduce them to the endless possibilities they have through faith and developing a meaningful and personal relationship with Jesus Christ....</p>
+				  <div class="col-md-10 offset-md-1">
+                     <ul class="social_icon text_align_center">
+						<li><a href="https://www.tiktok.com/@kvng_denash?_t=8aVemj3qqDW&_r=1"><img src="img/tiktok.jpg"
+								width="30"
+								height="30" alt="#" /></a></li>
+						<li><a href="https://youtube.com/@kvng_denash"><img src="img/youtube.jpg"
+								width="30"
+								height="30" alt="#" /></a></li>
+						<li><a href="https://instagram.com/king_denash?igshid=ZDdkNTZiNTM="><img src="img/instagram.jpg"
+								width="30"
+								height="30" alt="#" /></a></li>
+                      </ul>
+					   <div class="full">
+                              <a class="read_more_bt" href="King denash gallery.html">view gallery</a>
+                     </div>
+                </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end section -->
+   <!-- cpy -->
+   <div class="cpy">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="full text_align_center">
+                  <p>© 2023 All Rights Reserved. <a href="https://html.design">OBAN CODE</a></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- end cpy -->
+   <!-- jQuery (necessary for Bootstrap's JavaScript) -->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <!-- javascript -->
+   <script src="js/owl.carousel.js"></script>
+   <!-- wow animation -->
+   <script src="js/wow.js"></script>
+   <!-- menumaker -->
+   <script src="js/menumaker.js"></script>
+   <!-- custom js -->
+   <script src="js/custom.js"></script>
+</body>
+
+</html>
